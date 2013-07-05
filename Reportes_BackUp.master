@@ -29,6 +29,8 @@
                         <asp:MenuItem Text="Ver Reporte" Value="Crear Reporte"></asp:MenuItem>
                         <asp:MenuItem Text="Exportar BackUP" Value="Exportar BackUP" 
                             NavigateUrl="BackUpGeneral.aspx"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/importar.aspx" Text="Importar" Value="Importar">
+                        </asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
