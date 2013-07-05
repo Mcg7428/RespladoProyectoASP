@@ -31,6 +31,8 @@
                             NavigateUrl="BackUpGeneral.aspx"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/importar.aspx" Text="Importar" Value="Importar">
                         </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/importar.aspx" Text="Importacion" 
+                            Value="Importacion"></asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />

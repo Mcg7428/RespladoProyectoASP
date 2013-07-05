@@ -53,7 +53,7 @@ Partial Class Default2
         Consulta = "SELECT * FROM SubTarea"
         obj2.recibe(Consulta)
         While obj2.reg.Read
-            ConsultaInser = "INSERT INTO SubTarea values ('" & obj2.reg("ID_SUBTAREA") & "','" & obj2.reg("ID_TAREA_ST") & "','" & obj2.reg("ID_TAREA_ST") & "')"
+            ConsultaInser = "INSERT INTO SubTarea values ('" & obj2.reg("ID_SUBTAREA") & "','" & obj2.reg("ID_TAREA_ST") & "','" & obj2.reg("DESCRIPCION") & "')"
             obj1.envia(ConsultaInser)
         End While
 
