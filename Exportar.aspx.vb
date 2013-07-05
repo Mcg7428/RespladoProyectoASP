@@ -33,7 +33,7 @@ Partial Class Exportar
 
         '' importando a Mantenimiento
 
-        Consulta = "SELECT * FROM´Mantenimiento"
+        Consulta = "SELECT * FROM Mantenimiento"
         obj1.recibe(Consulta)
         While obj2.reg.Read
             ConsultaInser = "INSERT INTO MANTENIMIENTO values ('" & obj2.reg("ID_MANTENIMIENTO") & "','" & obj2.reg("NOMBRE") & "','" & obj2.reg("NUM_TAREAS") & "')"
