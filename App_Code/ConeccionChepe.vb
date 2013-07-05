@@ -12,7 +12,7 @@ Public Class ConeccionChepe
     Public Sub conectar() ''Crea la coneccion
         ''conexion = New SqlClient.SqlConnection() ''inicializamos el objeto conexion
         ''ahora pasamos la cadena de conexion al objeto conexion con nuestros datos
-        conexion.ConnectionString = "Server=JOSECARLOS-PC; database=BD_MantenimientoASP; trusted_connection=yes" '' cambiar el servidor para comite a Server=ATHENA64
+        conexion.ConnectionString = "Server=ATHENA64; database=BD_MantenimientoASP; trusted_connection=yes" '' cambiar el servidor para comite a Server=ATHENA64
         Try
             conexion.Open() ''con la funcion open abrimos la conexion
         Catch ex As Exception
