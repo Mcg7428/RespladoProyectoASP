@@ -10,7 +10,7 @@
     <style type="text/css">
         .style1
         {
-            width: 111px;
+            width: 83px;
         }
     </style>
 </head>
@@ -34,18 +34,19 @@
                     <DynamicSelectedStyle BackColor="#5D7B9D" />
                     <Items>
                         <asp:MenuItem NavigateUrl="~/DefaultUsuarios.aspx" Text="Usuario" 
-                            Value="New Item"></asp:MenuItem>
+                            Value="New Item" ImageUrl="~/Imagenes/Usuario.png"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/DefaultMantenimiento.aspx" Text="Mantenimiento" 
-                            Value="Mantenimiento"></asp:MenuItem>
+                            Value="Mantenimiento" ImageUrl="~/Imagenes/Mante.png"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/DefaultInmuebles.aspx" Text="Instlaciones" 
-                            Value="Instlaciones"></asp:MenuItem>
+                            Value="Instlaciones" ImageUrl="~/Imagenes/edificio.png"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/DefaultEquipos.aspx" Text="Equipos" 
-                            Value="Equipos"></asp:MenuItem>
+                            Value="Equipos" ImageUrl="~/Imagenes/compu.png"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/DefaultRegManteAsigna.aspx" 
-                            Text="Resgitro Mantenimientos" Value="Resgitro Mantenimientos">
+                            Text="Resgitro Mantenimientos" Value="Resgitro Mantenimientos" 
+                            ImageUrl="~/Imagenes/Mante.png">
                         </asp:MenuItem>
                         <asp:MenuItem NavigateUrl="DefaultReportes_BackUp.aspx" Text="Reportes y BackUP" 
-                            Value="Reportes y BackUP"></asp:MenuItem>
+                            Value="Reportes y BackUP" ImageUrl="~/Imagenes/admin.png"></asp:MenuItem>
                     </Items>
                     <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />

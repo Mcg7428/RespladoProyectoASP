@@ -2,6 +2,8 @@
 Imports System.Data
 Partial Class CrearMantenimiento
     Inherits System.Web.UI.Page
+    'Dim correo As New System.Net.Mail.MailMessage
+
     Dim cnn As New conexionSQLServer
 
     Public cn As SqlClient.SqlConnection
