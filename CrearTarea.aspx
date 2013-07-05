@@ -31,16 +31,16 @@
         <td style="width: 152px; height: 73px">
         </td>
         <td style="width: 151px; height: 73px">
-            <asp:ListBox ID="ListBox1" runat="server" Width="142px" 
+            <asp:ListBox ID="ListBox1" runat="server" Width="221px" 
                 DataSourceID="SqlDataSource1" DataTextField="DESCRIPCION" 
-                DataValueField="DESCRIPCION"></asp:ListBox>
+                DataValueField="DESCRIPCION" Height="86px"></asp:ListBox>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                 ConnectionString="<%$ ConnectionStrings:BD_MantenimientoASPConnectionString %>" 
                 SelectCommand="SELECT [DESCRIPCION] FROM [SubTarea_Independiente]">
             </asp:SqlDataSource>
         </td>
         <td style="height: 73px">
-            <asp:ListBox ID="ListBox2" runat="server" Width="146px"></asp:ListBox>
+            <asp:ListBox ID="ListBox2" runat="server" Width="216px" Height="81px"></asp:ListBox>
         </td>
     </tr>
     <tr>
@@ -51,7 +51,8 @@
                 Enabled="False" />
         </td>
         <td>
-            &nbsp;</td>
+            <asp:Button ID="Button3" runat="server" Text="Finalizar Add" />
+        </td>
     </tr>
 </table>
 </asp:Content>

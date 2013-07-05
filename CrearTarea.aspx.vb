@@ -144,4 +144,9 @@ Partial Class CrearTarea
             MsgBox("selecciones subtarea")
         End If
     End Sub
+
+    Protected Sub Button3_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button3.Click
+        Response.Redirect("~/CrearTarea.aspx")
+
+    End Sub
 End Class

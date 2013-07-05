@@ -26,7 +26,7 @@
                     <DynamicMenuStyle BackColor="#F7F6F3" />
                     <DynamicSelectedStyle BackColor="#5D7B9D" />
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/AsignarMantenimiento.aspx" 
+                        <asp:MenuItem NavigateUrl="~/VerManteAsig.aspx" 
                             Text="Asignar Mantenimiento" Value="Asignar Mantenimiento"></asp:MenuItem>
                         <asp:MenuItem NavigateUrl="~/ActulizarEstadoMantenimiento.aspx" 
                             Text="Estatus de Mantenimiento" Value="Estatus de Mantenimiento">

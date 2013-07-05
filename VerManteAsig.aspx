@@ -5,12 +5,12 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder15" Runat="Server">
     <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" 
-        AutoDataBind="True" GroupTreeImagesFolderUrl="" Height="1202px" 
-        ReportSourceID="CrystalReportSource1" style="font-weight: 700" 
-        ToolbarImagesFolderUrl="" ToolPanelWidth="200px" Width="1104px" />
-    <CR:CrystalReportSource ID="CrystalReportSource1" runat="server">
-        <Report FileName="RptManteActiv.rpt">
-        </Report>
-    </CR:CrystalReportSource>
+    AutoDataBind="True" GroupTreeImagesFolderUrl="" Height="1202px" 
+    ReportSourceID="CrystalReportSource1" style="font-weight: 700" 
+    ToolbarImagesFolderUrl="" ToolPanelWidth="200px" Width="1104px" />
+<CR:CrystalReportSource ID="CrystalReportSource1" runat="server">
+    <Report FileName="RptManteActiv.rpt">
+    </Report>
+</CR:CrystalReportSource>
 </asp:Content>
 
