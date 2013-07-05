@@ -89,5 +89,27 @@ Partial Class Exportar
 
         obj2.desconectar()
         obj1.fin()
+
+        download()
+
+    End Sub
+
+    Private Sub download()
+        'Fuerzo el Dialogo de Download
+        Dim sPathFile As String
+        'Guardo el path del archivo
+        sPathFile = "C:\Users\Jose Carlos\Documents\GitHub\RespladoProyectoASP\Respaldos\BaseImport.accdb"
+        'Armo la cabecera del diálogo para exportar el XML
+        Response.AddHeader("content-disposition", "attachment; filename=" & sPathFile)
+        Response.ContentType = "Application/x-msXML"
+        'Leo el archivo con un StreamReader
+        Dim reader As New IO.StreamReader(sPathFile)
+        'Le asigno al lector Binario, el Stream base del archivo
+        Dim stream As New IO.BinaryReader(reader.BaseStream)
+        'Escribo en el diálogo de exportación, el archivo completo
+        Response.BinaryWrite(stream.ReadBytes(stream.BaseStream.Length))
+        'Cierro el Stream
+        reader.Close()
+        stream.Close()
     End Sub
 End Class
