@@ -7,7 +7,7 @@ Public Class ConeccionAcces
     Public reg As OleDbDataReader
 
     Public Sub ini()
-        cnn.ConnectionString = ("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Jose Carlos\Documents\GitHub\RespladoProyectoASP\Respaldos\BaseImport.accdb")
+        cnn.ConnectionString = ("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Mcg\Documents\GitHub\RespladoProyectoASP\respaldos\BaseImport.accdb")
         Try
             cnn.Open()
         Catch ex As Exception

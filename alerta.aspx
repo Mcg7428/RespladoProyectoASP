@@ -18,35 +18,8 @@
         <td class="style3">
             &nbsp;</td>
         <td class="style2">
-            &nbsp;</td>
-        <td>
-            &nbsp;</td>
-    </tr>
-    <tr>
-        <td class="style3">
-            &nbsp;</td>
-        <td class="style2">
-            <asp:TextBox ID="txtPara" runat="server"></asp:TextBox>
-        </td>
-        <td>
-            &nbsp;</td>
-    </tr>
-    <tr>
-        <td class="style3">
-            &nbsp;</td>
-        <td class="style2">
-            <asp:TextBox ID="txtAsunto" runat="server"></asp:TextBox>
-        </td>
-        <td>
             <asp:Button ID="Button1" runat="server" Text="Enviar" />
         </td>
-    </tr>
-    <tr>
-        <td class="style3">
-            &nbsp;</td>
-        <td class="style2">
-            <asp:TextBox ID="txtTexto" runat="server"></asp:TextBox>
-        </td>
         <td>
             &nbsp;</td>
     </tr>
@@ -54,8 +27,31 @@
         <td class="style3">
             &nbsp;</td>
         <td class="style2">
-            <asp:TextBox ID="txtDe" runat="server"></asp:TextBox>
-        </td>
+            &nbsp;</td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td class="style3">
+            &nbsp;</td>
+        <td class="style2">
+            &nbsp;</td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td class="style3">
+            &nbsp;</td>
+        <td class="style2">
+            &nbsp;</td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td class="style3">
+            &nbsp;</td>
+        <td class="style2">
+            &nbsp;</td>
         <td>
             &nbsp;</td>
     </tr>

@@ -5,7 +5,7 @@ Partial Class Exportar
     Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.Click
         Dim ConsultaInser As String
         Dim Consulta As String
-        Dim TargetPath As String = "C:\Users\Jose Carlos\Documents\GitHub\RespladoProyectoASP\Respaldos\BaseImport.accdb"
+        Dim TargetPath As String = "C:\Users\Mcg\Documents\GitHub\RespladoProyectoASP\respaldos\BaseImport.accdb"
         Suvir.PostedFile.SaveAs(TargetPath)
         Dim obj2 As New ConeccionChepe
 

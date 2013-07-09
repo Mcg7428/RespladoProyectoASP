@@ -5,7 +5,7 @@ Partial Class Default2
     Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles importa.Click
         Dim ConsultaInser As String
         Dim Consulta As String
-        Dim TargetPath As String = "C:\Users\Jose Carlos\Documents\GitHub\RespladoProyectoASP\Respaldos\BaseImport.accdb"
+        Dim TargetPath As String = "C:\Users\Mcg\Documents\GitHub\RespladoProyectoASP\respaldos\BaseImport.accdb"
         Suvir.PostedFile.SaveAs(TargetPath)
         Dim obj1 As New ConeccionChepe
         obj1.conectar()
