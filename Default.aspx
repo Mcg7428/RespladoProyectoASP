@@ -27,7 +27,7 @@
         }
     </style>
 </head>
-<body bgcolor="#cccccc">
+<body bgcolor="#6699ff">
     <form id="form1" runat="server">
      <table style="width:100%; height: 458px;">
         <tr>

@@ -10,48 +10,58 @@
     <style type="text/css">
         .style1
         {
-            width: 83px;
+            text-align: center;
+        }
+        .style2
+        {
+            text-align: center;
+        }
+        .style3
+        {
+            width: 59px;
+            text-align: center;
         }
     </style>
 </head>
-<body>
-    <form id="form1" runat="server">
-    <table style="width: 100%;">
-        <tr>
-            <td class="style1">
-                &nbsp;</td>
-            <td>
-                Sistema de Mantenimiento</td>
+<body style="padding: 0px; margin: 0px; background-color: #99CCFF;">
+    <form id="form1" runat="server" 
+    style="padding: 0px; margin: 0px; background-color: #99CCFF;">
+    <table style="padding: 0px; margin: 0px; width: 100%;">
+        <tr style="padding: 0px; margin: 0px">
+            <td class="style1" colspan="2" style="padding: 0px; margin: 0px"  >
+                <h1 style="padding: 0px; margin: 0px; background-color: #3366CC">
+                Sistema de Mantenimiento</h1>
+            </td>
         </tr>
         <tr>
-            <td class="style1">
-                <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" 
-                    DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
-                    ForeColor="#7C6F57" StaticSubMenuIndent="2px">
-                    <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
-                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                    <DynamicMenuStyle BackColor="#F7F6F3" />
-                    <DynamicSelectedStyle BackColor="#5D7B9D" />
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/DefaultUsuarios.aspx" Text="Usuario" 
-                            Value="New Item" ImageUrl="~/Imagenes/Usuario.png"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/DefaultMantenimiento.aspx" Text="Mantenimiento" 
-                            Value="Mantenimiento" ImageUrl="~/Imagenes/Mante.png"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/DefaultInmuebles.aspx" Text="Instlaciones" 
-                            Value="Instlaciones" ImageUrl="~/Imagenes/edificio.png"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/DefaultEquipos.aspx" Text="Equipos" 
-                            Value="Equipos" ImageUrl="~/Imagenes/compu.png"></asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="~/DefaultRegManteAsigna.aspx" 
-                            Text="Resgitro Mantenimientos" Value="Resgitro Mantenimientos" 
-                            ImageUrl="~/Imagenes/Mante.png">
-                        </asp:MenuItem>
-                        <asp:MenuItem NavigateUrl="DefaultReportes_BackUp.aspx" Text="Reportes y BackUP" 
-                            Value="Reportes y BackUP" ImageUrl="~/Imagenes/admin.png"></asp:MenuItem>
-                    </Items>
-                    <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
-                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
-                    <StaticSelectedStyle BackColor="#5D7B9D" />
-                </asp:Menu>
+            <td class="style3"  >
+                <asp:ImageButton ID="BUsuario" runat="server" CausesValidation="False" 
+                    Height="50px" ImageUrl="~/Imagenes/Usuario.png" Width="50px"/>
+                <br />
+                <br />
+                <asp:ImageButton ID="BMantenimiento" runat="server" CausesValidation="False" 
+                    Height="50px" ImageUrl="~/Imagenes/Mante.png" Width="50px"/>
+                <br />
+                <br />
+                <asp:ImageButton ID="BEdificio" runat="server" CausesValidation="False" 
+                    Height="50px" ImageUrl="~/Imagenes/edificio.png" Width="50px"/>
+                <br />
+                <br />
+                <asp:ImageButton ID="BEquipos" runat="server" CausesValidation="False" 
+                    Height="50px" ImageUrl="~/Imagenes/compu.png" Width="50px"/>
+                <br />
+                <br />
+                <asp:ImageButton ID="BRegistarMantenimiento" runat="server" CausesValidation="False" 
+                    Height="50px" ImageUrl="~/Imagenes/ManteAdd.png" Width="50px"/>
+                <br />
+                <br />
+                <asp:ImageButton ID="BAdmin" runat="server" CausesValidation="False" 
+                    Height="50px" ImageUrl="~/Imagenes/admin.png" Width="50px"/>
+                <br />
+                <br />
+                <asp:ImageButton ID="BSalir" runat="server" CausesValidation="False" 
+                    Height="50px" ImageUrl="~/Imagenes/exit.png" Width="50px"/>
+                <br />
             </td>
             <td>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
@@ -60,10 +70,8 @@
             </td>
         </tr>
         <tr>
-            <td class="style1">
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
+            <td class="style2" colspan="2" bgcolor="#3366CC">
+                Copyright © 2013 ALSW , All rights reserved.</td>
         </tr>
     </table>
     </form>
