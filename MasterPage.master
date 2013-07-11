@@ -18,18 +18,19 @@
         }
         .style3
         {
-            width: 59px;
+            width: 123px;
             text-align: center;
         }
     </style>
 </head>
-<body style="padding: 0px; margin: 0px; background-color: #99CCFF;">
+<body style="padding: 0px; margin: 0px; background-color: #CCCCFF;;">
     <form id="form1" runat="server" 
-    style="padding: 0px; margin: 0px; background-color: #99CCFF;">
+    
+    style="padding: 0px; margin: 0px; background-color: #CCCCFF; font-family: 'Century Gothic';">
     <table style="padding: 0px; margin: 0px; width: 100%;">
         <tr style="padding: 0px; margin: 0px">
             <td class="style1" colspan="2" style="padding: 0px; margin: 0px"  >
-                <h1 style="padding: 0px; margin: 0px; background-color: #3366CC">
+                <h1 style="padding: 0px; margin: 0px; background-color: #000066; color: #99CCFF;">
                 Sistema de Mantenimiento</h1>
             </td>
         </tr>
@@ -38,31 +39,37 @@
                 <asp:ImageButton ID="BUsuario" runat="server" CausesValidation="False" 
                     Height="50px" ImageUrl="~/Imagenes/Usuario.png" Width="50px"/>
                 <br />
+                Admin Usuario<br />
                 <br />
                 <asp:ImageButton ID="BMantenimiento" runat="server" CausesValidation="False" 
                     Height="50px" ImageUrl="~/Imagenes/Mante.png" Width="50px"/>
                 <br />
+                Mantenimientos<br />
                 <br />
                 <asp:ImageButton ID="BEdificio" runat="server" CausesValidation="False" 
                     Height="50px" ImageUrl="~/Imagenes/edificio.png" Width="50px"/>
                 <br />
+                Edificios<br />
                 <br />
                 <asp:ImageButton ID="BEquipos" runat="server" CausesValidation="False" 
                     Height="50px" ImageUrl="~/Imagenes/compu.png" Width="50px"/>
                 <br />
+                Equipos<br />
                 <br />
                 <asp:ImageButton ID="BRegistarMantenimiento" runat="server" CausesValidation="False" 
                     Height="50px" ImageUrl="~/Imagenes/ManteAdd.png" Width="50px"/>
                 <br />
+                Regitar Mantenimientos<br />
                 <br />
                 <asp:ImageButton ID="BAdmin" runat="server" CausesValidation="False" 
                     Height="50px" ImageUrl="~/Imagenes/admin.png" Width="50px"/>
                 <br />
+                Administracion<br />
                 <br />
                 <asp:ImageButton ID="BSalir" runat="server" CausesValidation="False" 
                     Height="50px" ImageUrl="~/Imagenes/exit.png" Width="50px"/>
                 <br />
-            </td>
+                Salida</td>
             <td>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
