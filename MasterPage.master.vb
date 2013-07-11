@@ -29,5 +29,10 @@ Partial Class MasterPage
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
     End Sub
+
+    Protected Sub BSalir_Click(ByVal sender As Object, ByVal e As System.Web.UI.ImageClickEventArgs) Handles BSalir.Click
+        Session("Conectado") = "No" ''opcion que esta conectado
+        Response.Redirect("~/Default.aspx") ''enviar a pagina pirncipal
+    End Sub
 End Class
 
